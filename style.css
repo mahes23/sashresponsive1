@@ -1,0 +1,560 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------------nav-----------------------*/
+header{
+    background-color:white;
+    width: 100%;
+    height: 15vh;
+    position: sticky;
+    top: 0;
+}
+html{
+    scroll-padding: 5rem;
+}
+.nav-links{
+    display: flex;
+    
+}
+.nav-links h1{
+    padding-top: 2%;
+    padding-left: 5%;
+    text-transform: capitalize;
+    font-size: 40px;
+    color:rgb(38, 148, 111);
+   
+}
+.nav-links ul{
+    margin-left: 43%;
+    margin-top: 2%;
+    width: 50%;
+    height: 5vh;
+    
+}
+.nav-links ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 15%;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.nav-links ul li a{
+    text-decoration: none;
+    width: 370%;
+    color: black;
+}
+.nav-links ul li a:hover{
+    color:rgb(38, 148, 111);
+    border-bottom: 3px solid black;
+}
+/*---------------poster---------*/
+.poster{
+    width: 100%;
+    height: 90vh;
+    /*background-color: aqua;*/
+}
+.poster h2{
+    text-align: center;
+    padding-top: 15%;
+    font-size: 70px;
+    width: 640px;
+    margin-left: 32%;
+    text-transform: capitalize;
+}
+.poster span{
+    color:rgb(38, 148, 111);
+}
+/*----------------posdt-nav-------------------*/
+.post-nav{
+    width: 100%;
+    height: 6vh;
+    background-color:rgb(38, 148, 111);
+}
+.post-nav ul li{
+    display: inline-block;
+    justify-content: space-around;
+   border-right: 4px solid white;
+   margin-left: 5%;
+   width: 400px;
+   text-align: center;
+
+}
+.post-nav ul{
+    padding-top: 1%;
+}
+.borderleft{
+    border-left: 4px solid white;
+}
+/*-------------------------about----------------------*/
+.about{
+    width: 100%;
+    height: 100vh;
+    /*background-color:skyblue;*/
+    display: flex;
+}
+.aboutleft{
+    width: 100%;
+    text-align: center;
+}
+.aboutleft img{
+    padding-top: 10%;
+    height: 70vh;
+}
+.aboutright{
+    width: 100%;
+    margin-top: 5%;
+}
+.aboutright h1{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.aboutright  p{
+    width: 500px;
+    height: 30vh;
+    padding: 6px;
+    font-size: 28px;
+    margin-top: 5%;
+}
+.aboutright button{
+    margin-top: 7%;
+    height: 5vh;
+    width: 25%;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+}
+/*---------------------what we do------------------------------*/
+.whatwedo{
+    width: 100%;
+    height: 100vh;
+    /*background-color: bisque;*/
+    text-transform: capitalize; 
+   
+}
+.whatwedo h1{
+    padding-top: 7%;
+    text-align: center;
+    font-size: 40px;
+}
+.what{
+    display: flex;
+    justify-content: space-evenly;
+}
+.whatwedoleft{
+   margin-top: 5%;
+   height: 50vh;
+}
+.whatwedoleft ul li{
+     list-style: none;
+     margin-top: 10%;
+     font-size: 30px;
+     padding: 10px;
+}
+.whatwedoright{
+    margin-top: 5%;
+    height: 50vh;
+}
+.whatwedoright ul li{
+    list-style: none;
+    margin-top: 10%;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/*----------------------work-------------------------*/
+.works{
+    width: 100%;
+    height: 100vh;
+    /*background-color: burlywood;*/
+    text-align: center;
+}
+.works h1{
+    text-align: center;
+    padding-top: 3%;
+    text-transform:capitalize;
+    font-size: 35px;
+}
+.work{
+    display: flex;
+}
+.rightwork{
+    width: 100%;
+    height: 85vh;
+    /* background-color: blue;*/
+    text-align: center;
+    padding-top: 2%;
+}
+.rightimg img{
+    width: 30%;
+}
+.rightimg p{
+    text-transform: capitalize;
+    width: 400px;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 30px;
+}
+
+.leftwork{
+    width: 100%;
+    height: 85vh;
+    /*background-color: rgb(59, 180, 69);*/
+    text-align: center;
+    padding-top: 2%;
+}
+.leftimg img{
+    width: 30%;
+    
+}
+.leftimg p{
+    text-transform: capitalize;
+    width: 400px;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 30px;
+}
+/*----------project idea-------------*/
+.project{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(38, 148, 111); 
+    text-align: center;
+    padding-top: 20%;
+   text-transform: capitalize;
+   font-size: 30px;
+}
+.project h2{
+   width: 100%; 
+   padding: 10px;
+
+}
+/*----------------------footeer----------------------------*/
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+.footter{
+    display: flex;
+    width: 100%;
+    padding-top: 3%;
+    font-size: 20px;
+    
+}
+.footer1{
+    width: 40%;
+    margin-left: 10%;
+}
+.footer1 p{
+    width: 200px;
+    margin-top: 3%;
+}
+.footer1 ul{
+    margin-top: 3%;
+}
+.footer1 ul li{
+    list-style: none;
+    margin-left: 10%;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.footer1 ul li a{
+    text-decoration: none;
+    width: 370%;
+    color:white;
+}
+.footer1 ul li a:hover{
+    color:rgb(38, 148, 111);
+    border-bottom: 3px solid white;
+}
+.footer1 p{
+    width: 300px;
+}
+.sash{
+    font-size:45px;
+    text-transform: capitalize;
+    color:rgb(38, 148, 111);
+}
+footer h5{
+    margin-top: 4%;
+    text-align: center;
+    font-size: 20px;
+}
+/*-------------------media 600px--------------------*/
+@media only screen and (max-width:600px){
+    *{
+        font-size: 19px;
+    }
+    html{
+        scroll-padding:4rem;
+    }
+    header{
+        background-color: aqua
+    }
+    .nav-links ul{
+        margin-left:11%;
+        margin-top: 3%;
+        width: 90%;
+    }
+    .nav-links ul li{
+        margin-left: 8%;
+    }
+    .poster h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 60px;
+        width: 250px;
+        margin-left:27%;
+    }
+    .poster span{
+        color:rgb(38, 148, 111);
+        font-size: 40px;
+    }
+    .post-nav ul li{
+        display: inline-block;
+        justify-content: space-around;
+       border-right: 4px solid white;
+       margin-left: 5%;
+       width: 150px;
+       text-align: center;
+    }
+    .about{
+        width: 100%;
+        height: 100vh;
+        /*background-color:skyblue;*/
+        display:block;
+    }
+    .aboutright{
+        width: 100%;
+        margin-top: 5%;
+        height: 100vh;
+    }
+    .aboutright  p{
+        width: 500px;
+        height: 30vh;
+        padding: 6px;
+        font-size: 25px;
+        margin-top: 5%;
+        margin-left:2%;
+    }
+    .aboutright button{
+        margin-top: 2%;
+        height: 5vh;
+        width: 25%;
+        margin-left:2%;
+    }
+    .whatwedo{
+        width: 100%;
+        height: 100vh;
+        /*background-color: bisque;*/
+        text-transform: capitalize; 
+        margin-top: 37%;
+    }
+    .works{
+        width: 100%;
+        height: 100vh;
+    }
+    .work{
+        display: block;
+    }
+    .rightimg p{
+        text-transform: capitalize;
+        width: 300px;
+        text-align: center;
+        margin-left: 25%;
+        font-size: 30px;
+    }
+    .leftimg p{
+        text-transform: capitalize;
+        width: 300px;
+        text-align: center;
+        margin-left: 25%;
+        font-size: 30px;
+    }
+    .rightwork{
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue;*/
+    }
+    .lefttwork{
+        width: 100%;
+        height: 100vh;
+        /* background-color: blue;*/
+    }
+    .project{
+        width: 100%;
+        height: 100vh;
+        margin-top: 105%;
+        background-color:rgb(38, 148, 111); 
+        text-align: center;
+        padding-top: 40%;
+       text-transform: capitalize;
+       font-size: 80px;
+    }
+    footer{
+        width: 100%;
+        height: 90vh;
+        text-align:start;
+    }
+    .footer1{
+        width: 40%;
+       margin-left: 30%;
+        margin-top: 5%;
+    }
+    .footer1 h1{
+        font-size: 30px;
+    }
+    .footter{
+        display:block;
+        width: 100%;
+        height: 70vh;
+    }
+    footer h5{
+        margin-top: 9%;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+/*-------------------media 480px--------------------*/
+@media only screen and (max-width:480px){
+    *{
+        font-size: 15px;
+    }
+    html{
+        scroll-padding:4rem;
+    }
+    header{
+        background-color: aqua
+    }
+    .nav-links ul{
+        margin-left:5%;
+        margin-top: 3%;
+        width: 90%;
+    }
+    .nav-links ul li{
+        margin-left:5%;
+    }
+    .poster h2{
+        text-align: center;
+        padding-top: 10%;
+        font-size: 60px;
+        width: 250px;
+        margin-left:15%;
+    }
+    .poster span{
+        color:rgb(38, 148, 111);
+        font-size: 40px;
+    }
+    .post-nav ul li{
+        display: inline-block;
+        justify-content: space-around;
+       border-right: 4px solid white;
+       margin-left:2%;
+       width: 80px;
+       text-align: center;
+       text-transform: capitalize;
+    }
+    .about{
+        width: 100%;
+        height: 100vh;
+        /*background-color:skyblue;*/
+        display:block;
+    }
+    .aboutright{
+        width: 100%;
+        margin-top: 5%;
+        height: 100vh;
+    }
+    .aboutright  p{
+        width: 400px;
+        height: 30vh;
+        padding: 6px;
+        font-size: 18px;
+        margin-top: 5%;
+        margin-left:2%;
+    }
+    .aboutright button{
+        margin-top: 2%;
+        height: 5vh;
+        width: 35%;
+        margin-left:2%;
+    }
+    .whatwedo{
+        width: 100%;
+        height: 100vh;
+        /*background-color: bisque;*/
+        text-transform: capitalize; 
+        margin-top: 37%;
+    }
+    .works{
+        width: 100%;
+        height: 100vh;
+    }
+    .work{
+        display: block;
+    }
+    .rightimg p{
+        text-transform: capitalize;
+        width: 300px;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+    .leftimg p{
+        text-transform: capitalize;
+        width: 300px;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+    .rightwork{
+        width: 100%;
+        height: 70vh;
+        /* background-color: blue;*/
+    }
+    .lefttwork{
+        width: 100%;
+        height: 70vh;
+        /* background-color: blue;*/
+    }
+    .project{
+        width: 100%;
+        height: 60vh;
+        margin-top: 105%;
+        background-color:rgb(38, 148, 111); 
+        text-align: center;
+        padding-top: 40%;
+       text-transform: capitalize;
+       font-size: 80px;
+    }
+    footer{
+        width: 100%;
+        height: 90vh;
+        text-align:start;
+    }
+    .footer1{
+        width: 40%;
+       margin-left: 17%;
+        margin-top: 5%;
+    }
+    .footer1 h1{
+        font-size: 30px;
+    }
+    .footter{
+        display:block;
+        width: 100%;
+        height: 70vh;
+    }
+    footer h5{
+        margin-top: 9%;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
